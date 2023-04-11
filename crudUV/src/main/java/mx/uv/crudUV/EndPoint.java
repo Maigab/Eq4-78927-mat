@@ -10,6 +10,7 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 
 
 
+
 @Endpoint
 public class EndPoint{
     
@@ -17,7 +18,7 @@ public class EndPoint{
     private ISaludador iSaludador;
     protected String[] myArray = new String[10];
 
-
+    
 
 
 }
