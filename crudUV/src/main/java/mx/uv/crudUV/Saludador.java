@@ -11,24 +11,29 @@ public class Saludador {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     
-    private Integer id;
-    private String nombre;
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private Integer aula;
+    private String profesor;
+    private String alumno;
     
-    public Integer getId() {
-        return this.id;
+    public Integer getAula() {
+        return aula;
     }
-    
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setAula(Integer aula) {
+        this.aula = aula;
+    }
+    public String getProfesor() {
+        return profesor;
+    }
+    public void setProfesor(String profesor) {
+        this.profesor = profesor;
+    }
+    public String getAlumno() {
+        return alumno;
+    }
+    public void setAlumno(String alumno) {
+        this.alumno = alumno;
     }
 
-    public String getNombre() {
-        return this.nombre;
-    }
     
 
 }
